@@ -1,12 +1,10 @@
 ./kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --topic firstTopic
-
-
+./kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --topic water_quality
 
 ./kafka/bin/kafka-topics.sh --list --bootstrap-server localhost:9092
 
-
 ./kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic firstTopic
-
+./kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic water_quality
 ./kafka/bin/kafka-console-producer.sh --broker-list localhost:9092 --topic firstTopic
 
 ./kafka/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic firstTopic
