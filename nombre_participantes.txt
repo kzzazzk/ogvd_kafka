@@ -1,0 +1,15 @@
+Práctica Optimización para Grandes Volúmenes de Datos: Data streaming con Apache Kafka
+
+Alumnos:
+- Jaime Vaquero Rabahieh 
+- Pedro Arroyo Urbina
+- Zakaria Lasry Sahraoui 
+- Pablo Chicharro Gómez
+
+
+Notebooks entregados:
+- water_data_producer_pr2: Código del productor para el ejercicio 2
+- water_data_consumer_pr2: Código del consumidor para el ejercicio 2
+- water_data_consumer_pr2-Copy1: Copia del consumidor necesario para ejecutar en paralelo el ejercicio 2.7
+- ml_data_consumer_pr_2: Código para el ejercicio 3
+- ml_data_consumer_pr_2for3.3: Código del consumidor que consume las inferencias del ejercicio 3.3
